@@ -1,4 +1,4 @@
-.navContainer{
+.navbar{
   width: 100%;
   height: 64px;
   background-color: #222;
@@ -11,20 +11,67 @@
   top: 0;
 }
 
-.navLinks{
+.navContainer ul{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-left: 0;
 }
 
-.navLinks li{
+.navContainer ul li {
   list-style: none;
   margin: 0 2rem;
   cursor: pointer;
   transition: all 0.25s ease;
 }
 
-.navLinks li:hover, .navLinks li:focus{
+.navContainer ul li:hover, .navContainer ul li:focus{
   color: #FFF;
+}
 
+.mobileNavContainer{
+  opacity: 0;
+}
+
+/* Sidebar */
+
+.navToggle{
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .navContainer{
+    display: none;
+  }
+  
+  .mobileNavContainer{
+    opacity: 100%;
+  }
+
+  .mobileNavContainer ul{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+    top: -100vh;
+    width: 100vw;
+    opacity: 0;
+    right: 0;
+    height: fit-content;
+    transition: all 0.5s ease;
+  }
+
+  .mobileNavContainer ul li{
+    list-style: none;
+    margin: 2rem;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+
+  .mobileNavContainer ul.active{
+    top: 44px;
+    opacity: 100%;
+  }
 }
