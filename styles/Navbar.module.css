@@ -29,7 +29,7 @@
 }
 
 .mobileNavContainer{
-  opacity: 0;
+  display: none;
 }
 
 /* Sidebar */
@@ -45,7 +45,7 @@
   }
   
   .mobileNavContainer{
-    opacity: 100%;
+    display: block;
   }
 
   .mobileNavContainer ul{
