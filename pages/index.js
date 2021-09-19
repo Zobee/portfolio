@@ -7,19 +7,19 @@ import Contact from '../components/Contact'
 const index = () => {
   return (
     <div className={styles.mainContainer}>
-      <div className={styles.home} id='home'>
+      <div id='home'>
         <Home/>
       </div>
-      <div className={styles.projects} id='projects'>
+      <div id='projects'>
         <Projects />
       </div>
-      <div className={styles.articles} id='articles'>
+      <div id='articles'>
         <Articles />
       </div>
-      <div className={styles.resume} id='resume'>
+      <div id='resume'>
         <Resume />
       </div>
-      <div className={styles.contactKO} id='contact'>
+      <div id='contact'>
         <Contact />
       </div>
     </div>
