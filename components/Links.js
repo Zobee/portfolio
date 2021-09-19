@@ -13,11 +13,11 @@ const Links = ({open, setOpen}) => {
 
   return (
     <ul className={open ? styles.active : ""}>
-      <li> <a onClick={handleClick} href='#home'>Home</a></li>
-      <li> <a onClick={handleClick} href='#projects'> Projects</a></li>
-      <li> <a onClick={handleClick} href='#articles'> Articles</a></li>
-      <li> <a onClick={handleClick} href='#resume'> Resume</a></li>
-      <li> <a onClick={handleClick} href='#contact'> Contact</a></li>
+      <li onClick={handleClick} href='#home'>Home </li>
+      <li onClick={handleClick} href='#projects'> Projects </li>
+      <li onClick={handleClick} href='#articles'> Articles </li>
+      <li onClick={handleClick} href='#resume'> Resume </li>
+      <li onClick={handleClick} href='#contact'> Contact </li>
     </ul>
   )
 }

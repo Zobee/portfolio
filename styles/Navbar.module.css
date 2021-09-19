@@ -80,6 +80,8 @@
     cursor: pointer;
     transition: all 0.25s ease;
     color:#FFF;
+    width: 100%;
+    text-align: center;
   }
 
   .mobileNavContainer ul.active{
