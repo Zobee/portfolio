@@ -15,3 +15,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.title{
+  font-size: 2rem;
+  letter-spacing: 1.5rem;
+  transform: rotate(270deg);
+  margin: 0;
+  padding-bottom: 1rem;
+  border-bottom: solid 1px lightblue;
+}
