@@ -1,20 +1,21 @@
 import styles from '../styles/Main.module.css'
+import Home from '../components/Home'
 const index = () => {
   return (
     <div className={styles.mainContainer}>
-      <div id='home'>
-        HOME
+      <div className={styles.home} id='home'>
+        <Home/>
       </div>
-      <div id='projects'>
+      <div className={styles.projects} id='projects'>
         PROJECTS
       </div>
-      <div id='articles'>
+      <div className={styles.articles} id='articles'>
         ARTICLES
       </div>
-      <div id='resume'>
+      <div className={styles.resume} id='resume'>
         RESUME
       </div>
-      <div id='contact'>
+      <div className={styles.contactKO} id='contact'>
         CONTACT
       </div>
     </div>

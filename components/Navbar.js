@@ -1,13 +1,10 @@
 import styles from '../styles/Navbar.module.css'
 import NavItems from './NavItems'
 import Sidebar from './Sidebar'
-import Links from './Links'
-import { useState } from 'react'
-
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-      <h1>Nav Logo</h1>
+      <img onClick={() => window.scrollTo({top: 0})} className={styles.navLogo} src={"logo.png"} alt="Zoheb Boga" />
       <NavItems />
       <Sidebar />
     </div>
