@@ -61,3 +61,19 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .homeContainer{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .homeLeft{
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .homeRight{
+    margin-top: 2rem;
+  }
+}
