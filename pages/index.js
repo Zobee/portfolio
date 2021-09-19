@@ -1,5 +1,9 @@
 import styles from '../styles/Main.module.css'
 import Home from '../components/Home'
+import Projects from '../components/Projects'
+import Articles from '../components/Articles'
+import Resume from '../components/Resume'
+import Contact from '../components/Contact'
 const index = () => {
   return (
     <div className={styles.mainContainer}>
@@ -7,16 +11,16 @@ const index = () => {
         <Home/>
       </div>
       <div className={styles.projects} id='projects'>
-        PROJECTS
+        <Projects />
       </div>
       <div className={styles.articles} id='articles'>
-        ARTICLES
+        <Articles />
       </div>
       <div className={styles.resume} id='resume'>
-        RESUME
+        <Resume />
       </div>
       <div className={styles.contactKO} id='contact'>
-        CONTACT
+        <Contact />
       </div>
     </div>
   )
