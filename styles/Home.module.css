@@ -25,6 +25,12 @@
 
 .homeLeft h2{
   animation: fadeIn 2s ease;
+  letter-spacing: 0.5rem;
+}
+
+.homeLeft h4{
+  margin-top: 0.5rem;
+  letter-spacing: 0.5rem;
 }
 
 .homeRight img{
@@ -36,10 +42,9 @@
 
 @keyframes wave {
   0%{
-    opacity: 0;
+    transform: rotate(0);
   }
   25%{
-    opacity: 1;
     transform: rotate(45deg);
   }
   50%{
