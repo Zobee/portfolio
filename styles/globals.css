@@ -20,7 +20,7 @@ a {
   font-size: 2rem;
   letter-spacing: 1.5rem;
   transform: rotate(270deg);
-  margin: 0;
+  margin: auto -5rem;
   padding-bottom: 1rem;
   border-bottom: solid 1px lightblue;
 }

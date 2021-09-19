@@ -1,6 +1,6 @@
 .projectSection{
   display: flex;
-  justify-content: space-around;
+  align-items: center;
 }
 
 .projectContainer{
@@ -10,6 +10,13 @@
 }
 
 .project{
+  border: solid 1px white;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+  width: 25vw;
+  margin: 1rem;
+  text-align: center;
 }
