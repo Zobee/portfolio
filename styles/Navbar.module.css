@@ -57,6 +57,7 @@
   
   .mobileNavContainer{
     display: block;
+    z-index: 999;
   }
 
   .mobileNavContainer ul{

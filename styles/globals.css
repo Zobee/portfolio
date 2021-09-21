@@ -22,5 +22,22 @@ a {
   transform: rotate(270deg);
   margin: auto -5rem;
   padding-bottom: 1rem;
+  padding-left: 1.5rem;
   border-bottom: solid 1px lightblue;
+}
+
+#home{
+  height: 100vh;
+}
+
+@media screen and (max-width: 768px){
+  .title{
+    transform: none;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    letter-spacing: 1rem;
+    padding-left: 1rem;
+  }
 }

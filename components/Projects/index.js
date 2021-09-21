@@ -4,7 +4,7 @@ import { projects } from './projects'
 const Projects = () => {
   return (
     <div className={styles.projectSection}>
-      <h1 className="title">PROJECTS</h1>
+      <h1 className='title'>PROJECTS</h1>
       <div className={styles.projectContainer}>
         {projects.map(project => <Project key={project.id} {...project}/>)}
       </div>

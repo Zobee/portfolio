@@ -20,3 +20,13 @@
   margin: 1rem;
   text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+  .projectContainer{
+    flex-direction: column;
+  }
+  
+  .project{
+    width: 90vw;
+  }
+}
