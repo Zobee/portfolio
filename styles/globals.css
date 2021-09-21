@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=optional");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Poppins";
+  font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -20,10 +21,10 @@ a {
   font-size: 2rem;
   letter-spacing: 1.5rem;
   transform: rotate(270deg);
-  margin: auto -5rem;
+  margin: auto -7rem;
   padding-bottom: 1rem;
   padding-left: 1.5rem;
-  border-bottom: solid 1px lightblue;
+  border-bottom: solid 1px #BC3F3C;
 }
 
 #home{

@@ -1,17 +1,12 @@
 import styles from '../../styles/Projects.module.css'
-import {FaGithub} from 'react-icons/fa'
-import {VscLiveShare} from 'react-icons/vsc'
-const Project = ({title, img, description, githubLink, liveLink}) => {
+const Project = ({title, img, description, liveLink}) => {
   return (
+    <a target="_blank" href={liveLink}>
     <section className={styles.project}>
-      <h1>{title}</h1>
-      <img src={img} />
+      <img src={img} alt={title} />
       <p>{description}</p>
-      <section>
-        <FaGithub />
-        <VscLiveShare/>
-      </section>
     </section>
+    </a>
   )
 }
 

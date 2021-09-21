@@ -26,6 +26,7 @@
 .homeLeft h2{
   animation: fadeIn 2s ease;
   letter-spacing: 0.5rem;
+  opacity: 0.86;
 }
 
 .homeLeft h4{
