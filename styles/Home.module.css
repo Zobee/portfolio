@@ -86,4 +86,9 @@
   .homeRight{
     margin-top: 2rem;
   }
+
+  .homeRight img{
+    height: 40vh;
+    width: 40vh;
+  }
 }
