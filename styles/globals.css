@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=optional");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
 html,
 body {
   padding: 0;
@@ -35,6 +35,7 @@ a {
   .title{
     transform: none;
     font-size: 1.5rem;
+    max-width: 90vw;
     margin-top: 1rem;
     margin-bottom: 2rem;
     padding-bottom: 0.5rem;

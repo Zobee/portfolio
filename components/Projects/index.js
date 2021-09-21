@@ -1,6 +1,7 @@
 import styles from '../../styles/Projects.module.css'
 import Project from "./Project"
 import { projects } from './projects'
+//TODO: Move overlapping styles for articles/projects into a shared stylesheet
 const Projects = () => {
   return (
     <div className={styles.projectSection}>
