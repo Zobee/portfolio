@@ -74,3 +74,14 @@
     transform: translateY(0);
   }
 }
+
+@media screen and (max-width: 768px) {
+  .contact h1{
+    font-size: 1.5rem;
+  }
+
+
+  .socialBtnContainer *:hover{
+    animation: none;
+  }
+}
