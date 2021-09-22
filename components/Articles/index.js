@@ -5,9 +5,9 @@ import { articles } from './articles'
 //TODO: Move overlapping styles for articles/projects into a shared stylesheet
 const Articles = () => {
   return (
-    <div>
+    <div className='section'>
       <h1 className="title">ARTICLES</h1>
-      <div className={styles.articleContainer}>
+      <div className="section-container">
         {articles.map(article => <Article key={article.id} {...article}/>)}
       </div>
     </div>

@@ -1,7 +1,10 @@
 const Contact = () => {
   return (
-    <div>
-      <h1 className="title">REACH OUT</h1>
+    <div className='section'>
+      <h1 className="title">CONTACT</h1>
+      <div className='section-container'>
+
+      </div>
     </div>
   )
 }
