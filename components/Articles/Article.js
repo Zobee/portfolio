@@ -2,7 +2,7 @@ import styles from "../../styles/Articles.module.css"
 import {BsChevronDoubleRight} from 'react-icons/bs'
 const Article = ({title, subtitle, blurb, link, published}) => {
   return (
-    <a href={link} target='_blank'>
+    <a href={link} target='_blank' rel="noreferrer">
       <section className={styles.article}>
         <h1>{title}</h1>
         <h3>{subtitle}</h3>

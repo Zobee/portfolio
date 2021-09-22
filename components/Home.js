@@ -1,4 +1,5 @@
 import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 const Home = () => {
   return (
     <div className={styles.homeContainer}>
@@ -7,7 +8,7 @@ const Home = () => {
         <h4>Full Stack Web Developer</h4>
       </div>
       <div className={styles.homeRight}>
-        <img src={'profile.png'} />
+        <Image src={'/profile.png'} layout='fill' />
       </div>
     </div>
   )

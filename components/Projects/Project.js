@@ -1,7 +1,7 @@
 import styles from '../../styles/Projects.module.css'
 const Project = ({title, img, description, liveLink}) => {
   return (
-    <a target="_blank" href={liveLink}>
+    <a target="_blank" rel="noreferrer" href={liveLink}>
     <section className={styles.project}>
       <img src={img} alt={title} />
       <p>{description}</p>

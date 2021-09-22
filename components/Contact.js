@@ -15,18 +15,21 @@ const Contact = () => {
             <section className={styles.socialBtnContainer}>
               <a 
                 target='_blank' 
+                rel="noreferrer"
                 href="https://ca.linkedin.com/in/zohebboga"
               >
                 <FaLinkedin size='2rem' className={styles.linkedIn} />
               </a>
               <a
                 target='_blank'  
+                rel="noreferrer"
                 href="https://twitter.com/zohboga"
               >
                 <FaTwitter size='2rem' className={styles.twitter} />
               </a>
               <a 
                 target='_blank' 
+                rel="noreferrer"
                 href="https://medium.com/@zohebboga"
               >
                 <FaMedium size='2rem' className={styles.medium} />

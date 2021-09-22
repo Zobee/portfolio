@@ -35,8 +35,8 @@
 }
 
 .homeRight img{
-  height: 50vh;
-  width: 50vh;
+  height: 25vh;
+  width: 25vh;
   border-radius: 50%;
   animation: fadeIn 3s ease;
 }
