@@ -1,0 +1,76 @@
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact p{
+  margin-bottom: 0.5rem;
+}
+
+.contact h1{
+  font-size: 3rem;
+  margin-top: 0;
+  text-shadow: 0 0.5rem 0.2rem rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  transition: all 0.5s ease;
+}
+
+.contact h1:hover{
+  opacity: 1;
+  text-shadow: 0 0.25rem 0.1rem rgba(0, 0, 0, 0.2);
+}
+
+.socials p{
+  text-align: center;
+}
+
+.socialBtnContainer{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.socialBtnContainer *{
+  cursor: pointer;
+  transition: all 0.25s ease;
+  margin: 1rem;
+}
+
+.socialBtnContainer *:hover{
+  animation: hop 0.5s ease;
+}
+
+.linkedIn:hover{
+  color: #2867B2;
+  background-color: white;
+}
+
+.twitter:hover{
+  color: #1DA1F2;
+}
+
+.medium:hover{
+  color: black;
+  background-color: white;
+}
+
+@keyframes hop{
+  0%{
+    transform: translateY(0);
+  }
+  25%{
+    transform: translateY(-0.1rem);
+  }
+  50%{
+    transform: translateY(-0.2rem);
+  }
+  75%{
+    transform: translateY(-0.1rem);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
