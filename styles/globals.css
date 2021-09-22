@@ -6,7 +6,6 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 a {
@@ -35,6 +34,7 @@ a {
 .section{
   display: flex;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .section-container{
