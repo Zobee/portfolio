@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a {
@@ -44,6 +45,9 @@ a {
 }
 
 @media screen and (max-width: 768px){
+  body{
+    width: 100vw;
+  }
   .section-container{
     flex-direction: column;
   }
