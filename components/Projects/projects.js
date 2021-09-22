@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Moonshot",
     img: "moonshot.png",
-    description: "A cryptocurrency model portfolio and price tracker. Utilises the CoinGecko API to retrieve up-to-date market data on the top 100 cryptocurrencies. Not a get rick quick scheme, I swear!",
+    description: "A cryptocurrency model portfolio and price tracker. Utilises the CoinGecko API to retrieve up-to-date market data on the top 100 cryptocurrencies. Not a get rich quick scheme, I swear!",
     githubLink: "https://github.com/IrvHenri/moonshot",
     liveLink: "https://moonshot-lh.netlify.app/"
   },
