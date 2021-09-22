@@ -36,7 +36,7 @@
 .socialBtnContainer *{
   cursor: pointer;
   transition: all 0.25s ease;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .socialBtnContainer *:hover{
