@@ -6,7 +6,7 @@ const Resume = () => {
     <div className='section'>
       <h1 className="title">RESUME</h1>
       <div className='section-container'>
-        <a target="_blank" href={resumeLink}>
+        <a target="_blank" rel="noreferrer" href={resumeLink}>
           <Image src={"/resume.svg"} 
           className={styles.resume} 
           width='500%'
