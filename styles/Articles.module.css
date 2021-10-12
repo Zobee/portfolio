@@ -12,6 +12,7 @@
   transition: all 0.5s ease;
   line-height: 1.25rem;
   position: relative;
+  border-radius: 12px;
 }
 
 .article h1{

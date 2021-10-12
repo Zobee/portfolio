@@ -2,10 +2,10 @@ import styles from '../../styles/Navbar.module.css'
 const Links = ({open, setOpen}) => {
 
   const handleClick = (e) => {
-    e.preventDefault()
-    const link = e.target.getAttribute('href')
-    const offset = document.querySelector(link).offsetTop
-    open && setOpen(false)
+    e.preventDefault();
+    const link = e.target.getAttribute('href');
+    const offset = document.querySelector(link).offsetTop;
+    open && setOpen(false);
     window.scrollTo({
       top: offset - 64
     })
